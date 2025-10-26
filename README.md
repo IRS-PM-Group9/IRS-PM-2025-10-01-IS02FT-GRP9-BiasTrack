@@ -1,7 +1,7 @@
 ## SECTION 1 : PROJECT TITLE
 ## BiasTrack: Correcting Gender Pay Gaps Before They Widen
 
-[![Watch the video](https://img.youtube.com/vi/ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=ID)
+[![Watch the video](https://img.youtube.com/vi/KAWZH4DDgiw/maxresdefault.jpg)](https://www.youtube.com/watch?v=KAWZH4DDgiw)
 
 ---
 
