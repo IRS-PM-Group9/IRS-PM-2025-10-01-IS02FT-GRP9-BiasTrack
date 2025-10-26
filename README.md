@@ -1,132 +1,44 @@
-﻿### [ Practice Module ] Project Submission Template: Github Repository & Zip File
-
-**[ Naming Convention ]** CourseCode-StartDate-BatchCode-TeamName-ProjectName.zip
-
-* **[ MTech Thru-Train Group Project Naming Example ]** IRS-PM-2020-01-18-IS02PT-GRP-AwsomeSG-HDB_BTO_Recommender.zip
-
-* **[ MTech Stackable Group Project Naming Example ]** IRS-PM-2020-01-18-STK02-GRP-AwsomeSG-HDB_BTO_Recommender.zip
-
-[Online editor for this README.md markdown file](https://pandao.github.io/editor.md/en.html "pandao")
-
----
-
-### <<<<<<<<<<<<<<<<<<<< Start of Template >>>>>>>>>>>>>>>>>>>>
-
----
-
 ## SECTION 1 : PROJECT TITLE
-## Singapore Housing & Deveoplment Board - BTO Recommender System
+## BiasTrack: Correcting Gender Pay Gaps Before They Widen
 
-<img src="SystemCode/clips/static/hdb-bto.png"
-     style="float: left; margin-right: 0px;" />
+[![Watch the video](https://img.youtube.com/vi/ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=ID)
 
 ---
 
-## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Singapore ranks amongst countries with the highest population density in the world. In a bid to have firm control over long term urban planning, the Singapore government came up with the “Built to Order” (abbreviated BTO) initiative back in 2001. These are new Housing Development Board (HDB) flats tightly controlled by their eligibility and quantity released every year. In more recent years, the modern BTO scheme in Singapore requires a waiting period of 3-4 years, and is generally targeted at young Singaporean couples looking to purchase their first property and set up a family. Nationality and income ceilings are some of the broad filters that determine one’s eligibility for the highly sought after projects. 
+## SECTION 2 : EXECUTIVE SUMMARY
 
+The gender pay gap remains one of the most persistent challenges in workplaces across the globe — and Singapore is no exception. Even with progressive employment guidelines and growing awareness of pay transparency, the Ministry of Manpower’s latest figures report an adjusted gender pay gap of around 6%. This means that even after accounting for factors such as occupation and education, women continue to earn less than men for comparable roles. As two women in technology ourselves, this issue resonates deeply with us, motivating the creation of **BiasTrack** — an intelligent reasoning system designed to detect, explain, and address pay inequities through data-driven insight.
 
-Our team, comprising of 6 young Singaporeans, all hope to be property owners one day. Many of our peers opt for BTO flats due to their affordability, existence of financial aid from the government, as well as their resale value. However, there often exists a knowledge gap for these young couples during the decision making process and they end up making potentially regretful decisions. We would like to bridge this knowledge gap, and have hence chosen to base our project on creating a recommender system for BTO flats, utilizing the data from recent launches in Tampines, Eunos, Sengkang and Punggol. 
+While existing platforms such as *Ravio*, *Syndio*, and *Gapsquare* provide benchmarking and compliance reporting, they often fall short of offering **transparent reasoning** or **scenario-based simulation** under real organizational constraints. We envisioned *BiasTrack* as a bridge between analytics and action — a tool that not only identifies disparities but also empowers decision-makers to understand *why* they occur and *how* they can be corrected responsibly.
 
+Our system integrates machine learning, explainable AI, and optimization techniques in one cohesive workflow. It detects pay gaps through regression-based models, translates complex findings into plain-language explanations using Natural Language Generation, and simulates “what-if” scenarios that allow HR teams to explore the impact of proposed adjustments. Constraint-based optimization then recommends equitable salary revisions that respect budget, hierarchy, and role limitations — providing a holistic and practical approach to pay equity.
 
-Using the techniques imparted to us in lectures, our group first set out to build a sizeable knowledge base via conducting an interview and administering a survey. While building the system, we utilized tools such as Java to scrape real time data from HDB website and transform it into a database, CLIPS to synthesize the rule based reasoning process, and Python to integrate it into an easy to use UI for the everyday user. To add icing on the cake, we even hosted the system on a website so that the everyday user can access it through the click of a link.
+Built using techniques from the Intelligent Reasoning Systems module, BiasTrack applies reasoning, transparency, and fairness principles to real-world social data. We utilized the Glassdoor Gender Pay Gap dataset, which provided diverse insights into compensation across roles, experience levels, and genders. This dataset served as the foundation for model training, evaluation, and reasoning, enabling us to simulate realistic workplace pay dynamics. Beyond the technical achievement, this project reflects our belief that technology can — and should — play a transformative role in promoting workplace equality.
 
-
-Our team had an amazing time working on this project, and hope to share our insights with everyone. Despite a focus on BTO flats, we would recommend it for everybody interested in understanding property market trends for residence or investment purposes. There truly are a wide array of factors behind the decision to invest in a property, and we only wish there was more time to work on the scope and scale of the project. 
+In essence, **BiasTrack** is more than a proof of concept. It represents our shared conviction as women technologists that fairness must be engineered into the systems that shape our professional world. With continued development, BiasTrack can evolve into a comprehensive fairness intelligence tool, enabling organizations to identify, reason about, and actively close pay gaps before they widen.
 
 ---
 
 ## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 
-| Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
-| :------------ |:---------------:| :-----| :-----|
-| Desmond Chua | A1234567A | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567A@nus.edu.sg |
-| Chang Ye Han | A1234567B | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
-| Chee Jia Wei | A1234567C | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
-| Ganesh Kumar | A1234567D | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
-| Jeanette Lim | A1234567E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567E@qq.com |
+| **Official Full Name**         | **Student ID** | **Work Items**                                                                                                                                                                                                                                                                                                                                                                                            | **Email**                                            |
+| :----------------------------- | :-------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- |
+| **Arshi Saxena**               |             A0331999J             | • Ideation<br>• Research on gender pay gap laws, trends, and statistics<br>• Defined detailed problem scope and functionalities <br>• System architecture and module design<br>• Data preprocessing and feature engineering (Model 2)<br>• Model 2 development, evaluation, and optimization<br>• Documentation <br>• Video creation <br>• Project management and integration | [e1582855@u.nus.edu](mailto:e1582855@u.nus.edu)                 |
+| **Pranjali Rajendra Sonawane** |             A0326167B             | • Ideation<br>• Research on existing market solutions and tool comparisons<br>• Workflow design and functional flow mapping<br>• Frontend dashboard design and implementation<br>• Data preprocessing and feature engineering (Model 1)<br>• Model 1 development, evaluation, and optimization<br> • Documentation <br>• Video creation <br>• Project management and integration                                          | [pranjalisonawane@u.nus.edu](mailto:pranjalisonawane@u.nus.edu) |
+
 
 ---
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Sudoku AI Solver](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Sudoku AI Solver")
-
-Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
-More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
+[![Watch the video](https://img.youtube.com/vi/yAiBt9lTmBE/maxresdefault.jpg)](https://www.youtube.com/watch?v=yAiBt9lTmBE)
 
 ---
 
-## SECTION 5 : USER GUIDE
-
-`Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
-
-### [ 1 ] To run the system using iss-vm
-
-> download pre-built virtual machine from http://bit.ly/iss-vm
-
-> start iss-vm
-
-> open terminal in iss-vm
-
-> $ git clone https://github.com/telescopeuser/Workshop-Project-Submission-Template.git
-
-> $ source activate iss-env-py2
-
-> (iss-env-py2) $ cd Workshop-Project-Submission-Template/SystemCode/clips
-
-> (iss-env-py2) $ python app.py
-
-> **Go to URL using web browser** http://0.0.0.0:5000 or http://127.0.0.1:5000
-
-### [ 2 ] To run the system in other/local machine:
-### Install additional necessary libraries. This application works in python 2 only.
-
-> $ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
-
-> $ pip install pyclips flask flask-socketio eventlet simplejson pandas
+## SECTION 5 : INSTALLATION AND USER GUIDE
+[View Installation & User Guide](ProjectReport/Installation_and_User_Guide.pdf)
 
 ---
-## SECTION 6 : PROJECT REPORT / PAPER
+## SECTION 6 : PROJECT REPORT
 
-`Refer to project report at Github Folder: ProjectReport`
-
-**Recommended Sections for Project Report / Paper:**
-- Executive Summary / Paper Abstract
-- Sponsor Company Introduction (if applicable)
-- Business Problem Background
-- Market Research
-- Project Objectives & Success Measurements
-- Project Solution (To detail domain modelling & system design.)
-- Project Implementation (To detail system development & testing approach.)
-- Project Performance & Validation (To prove project objectives are met.)
-- Project Conclusions: Findings & Recommendation
-- Appendix of report: Project Proposal
-- Appendix of report: Mapped System Functionalities against knowledge, techniques and skills of modular courses: MR, RS, CGS
-- Appendix of report: Installation and User Guide
-- Appendix of report: 1-2 pages individual project report per project member, including: Individual reflection of project journey: (1) personal contribution to group project (2) what learnt is most useful for you (3) how you can apply the knowledge and skills in other situations or your workplaces
-- Appendix of report: List of Abbreviations (if applicable)
-- Appendix of report: References (if applicable)
-
----
-## SECTION 7 : MISCELLANEOUS
-
-`Refer to Github Folder: Miscellaneous`
-
-### HDB_BTO_SURVEY.xlsx
-* Results of survey
-* Insights derived, which were subsequently used in our system
-
----
-
-### <<<<<<<<<<<<<<<<<<<< End of Template >>>>>>>>>>>>>>>>>>>>
-
----
-
-**This [Machine Reasoning (MR)](https://www.iss.nus.edu.sg/executive-education/course/detail/machine-reasoning "Machine Reasoning") course is part of the Analytics and Intelligent Systems and Graduate Certificate in [Intelligent Reasoning Systems (IRS)](https://www.iss.nus.edu.sg/stackable-certificate-programmes/intelligent-systems "Intelligent Reasoning Systems") series offered by [NUS-ISS](https://www.iss.nus.edu.sg "Institute of Systems Science, National University of Singapore").**
-
-**Lecturer: [GU Zhan (Sam)](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan "GU Zhan (Sam)")**
-
-[![alt text](https://www.iss.nus.edu.sg/images/default-source/About-Us/7.6.1-teaching-staff/sam-website.tmb-.png "Let's check Sam' profile page")](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan)
-
-**zhan.gu@nus.edu.sg**
+[View Project Report](ProjectReport/Project_Report.pdf)
