@@ -31,7 +31,7 @@ In essence, **BiasTrack** is more than a proof of concept. It represents our sha
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Watch the video](https://img.youtube.com/vi/yAiBt9lTmBE/maxresdefault.jpg)](https://www.youtube.com/watch?v=yAiBt9lTmBE)
+[![Watch the video](https://img.youtube.com/vi/yAiBt9lTmBE/hqdefault.jpg)](https://www.youtube.com/watch?v=yAiBt9lTmBE)
 
 ---
 
